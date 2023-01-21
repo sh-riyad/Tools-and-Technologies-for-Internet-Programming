@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./styles/registration.css" />
+</head>
+<body>
+    <div class="container">
+        <form>
+
+            <div>
+                <div class="left"> <lavel for="name">Full Name</lavel> </div>
+                <div class="right"> <input type="text" id="name" name="name" placeholder="Name"> </div>
+            </div>
+
+            <div>
+                <div class="left"> <lavel for="uname">User name</lavel><br> </div>
+                <div class="right"> <input type="text" id="uname" name="uname" placeholder="username"></div>
+            </div>
+
+            <div>
+                <div class="left"> <lavel for="email">Email</lavel> </div>
+                <div class="right"> <input type="text" id="email" name="email" placeholder="xyz@pm.me"></div>
+            </div>
+
+            <div>
+                <div class="left"> <lavel for="number">Contact Number</lavel> </div>
+                <div class="right"> <input type="text" id="number" name="Mobile Number" value="+880"> </div>
+            </div>
+
+            <div>
+                <div class="left"> <lavel for="password">Password</lavel> </div>
+                <div class="right"> <input type="text" id="password" name="password"> </div>
+            </div>
+
+            <div>
+                <div class="left"> <lavel for="cpwd">Confirm Password</lavel> </div>
+                <div class="right"> <input type="text" id="cpwd" name="password"> </div>
+            </div>
+
+            <div class="left">
+                <lavel for="city">City</lavel>
+            </div>
+
+            <div class="right">
+                <select id="city" name="City">
+                    <option id="Chittagong"> Chittagong</option>
+                    <option value="dhaka"> Dhaka</option>
+                    <option value="khulna"> Khulna</option>
+                    <option value="sylhet"> Sylhet</option>
+                    <option value="feni"> Feni</option>
+                </select>
+            </div>
+
+            <div class="space">
+                <p>Gender:</p>
+                <input type="radio" id="male" name="male">
+                <lavel for="male">Male</lavel><br>
+                <input type="radio" id="female" name="male">
+                <lavel for="female">Female</lavel>
+            </div>
+
+            <div class="space">
+                <p>Birth Day:</p>
+                <input type="date" id="bdate" name="bdate">
+            </div>
+
+            <div class="space">
+                <lavel for="age">Your Age:</lavel>
+                <input type="range" id="age" name="Name" min="15" max="50">
+            </div>
+            
+            <div>
+                <p> Say Something About Us:</p>
+                <textarea name="sayAboutUs" rows="10" cols="30"></textarea>
+                <p>Terms and Conditions:</p>
+                <input type="checkbox" id="terms" name="Terms">
+                <lavel for="terms">Terms</lavel><br>
+                <input type="checkbox" id="conditions" name="Conditions">
+                <lavel for="conditions">Conditions</lavel>
+            </div>
+            
+            <input type="submit" value="Submit">
+            <input type="reset">
+
+        </form>
+    </div>
+</body>
+</html>

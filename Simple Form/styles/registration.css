@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+input[type=text],select,textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type=text]:focus {
+    border: 1px solid #555;
+}
+label{
+    padding: 12px;
+}
+.left{
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+.right {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+}
+p{
+    font: bold;
+}
+input[type=submit],input[type=reset]{
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 10%;
+}
+.space{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
