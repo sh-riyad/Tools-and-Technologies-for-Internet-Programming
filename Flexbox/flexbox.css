@@ -26,13 +26,13 @@ body{
     justify-content: center;
 }
 .box1{
-    margin: 45px 30px;
+    margin: auto 30px;
     width: 150px;
     height: 120px;
     background-color: white;
 }
 .box2{
-    margin: 45px 10px;
+    margin: auto 10px;
     width: 150px;
     height: 120px;
     background-color: white;
