@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+} 
+.left{
+    height: 80%;
+    display: grid;
+    flex-direction: column;
+}
+h3{
+    padding-top: 40px;
+}
+.right{
+    width: 50%;
+}
+img{
+    width: 100%;
+}
+button{
+    width: 40%;
+    background: rgb(81, 221, 20);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+#text{
+    font-size: 50px;
+}
+#diff{
+    color: red;
+    font-size: 55px;
+}
