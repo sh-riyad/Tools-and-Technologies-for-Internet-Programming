@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> html for mid </title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+  <section>
+    <div class="left-box">
+      <div class="left-left-box">
+        <div class="box">
+          <img src="./images/triangle.png">
+          <h2>Triangle</h2><br>
+          <p>Area (A) = 0.5 x b x h</p>
+          <div class="inputfield">
+            <div >
+              <input type="number" id="num1">
+              <label>cm</label>
+            </div>
+            <div>
+              <input type="number" id="num2">
+              <label>cm</label>
+            </div>
+          </div>
+          <!-- <button onclick="calculate('triangle',num1,num2)">Calculate</button> -->
+          <button onclick="triangle('num1','num2')">Calculate</button>
+        </div>
+
+        <div class="box">
+          <img src="./images/rhombus.png">
+          <h2>Rhombus</h2><br>
+          <p>Area (A) = 0.5 x d1 x d2</p>
+          <div class="inputfield">
+            <div >
+              <input type="number" id="num1">
+              <label>cm</label>
+            </div>
+            <div>
+              <input type="number" id="num2">
+              <label>cm</label>
+            </div>
+          </div>
+          <button onclick="rectangle('num1','num2')">Calculate</button>
+        </div>
+      </div>
+
+      <div class="left-left-box">
+        <div class="box">
+          <img src="./images/rectangle.png">
+          <h2>Rectangle</h2><br>
+          <p>Area (A) = w x l</p>
+          <div class="inputfield">
+            <div >
+              <input type="number" id="num3">
+              <label>cm</label>
+            </div>
+            <div>
+              <input type="number" id="num4">
+              <label>cm</label>
+            </div>
+          </div>
+          <!-- <button onclick="rectangle('rectangle',num3,num4)">Calculate</button> -->
+          <button onclick="rectangle('num3','num4')">Calculate</button>
+
+        </div>
+  
+        <div class="box">
+          <img src="./images/pentagon.png">
+          <h2>Pentagon</h2><br>
+          <p>Area (A) = 0.5 x b x h</p>
+          <div class="inputfield">
+            <div >
+              <input type="number" id="num1">
+              <label>cm</label>
+            </div>
+            <div>
+              <input type="number" id="num2">
+              <label>cm</label>
+            </div>
+          </div>
+          <button>Calculate</button>
+        </div>
+  
+        
+      </div>
+
+      <div class="left-left-box">
+        <div class="box">
+          <img src="./images/parallelogram.png">
+          <h2>parallelogram</h2><br>
+          <p>Area (A) = b x h</p>
+          <div class="inputfield">
+            <div >
+              <input type="number" id="num1">
+              <label>cm</label>
+            </div>
+            <div>
+              <input type="number" id="num2">
+              <label>cm</label>
+            </div>
+          </div>
+          <button>Calculate</button>
+        </div>
+  
+        <div class="box">
+          <img src="./images/ellipse.png">
+          <h2>Ellipse</h2><br>
+          <p>Area (A) = 0.5 x b x h</p>
+          <div class="inputfield">
+            <div >
+              <input type="number" id="num1">
+              <label>cm</label>
+            </div>
+            <div>
+              <input type="number" id="num2">
+              <label>cm</label>
+            </div>
+          </div>
+          <button>Calculate</button>
+        </div>
+  
+      </div>
+    </div>
+
+
+
+
+    <div class="right-box">
+      <h1>Area Calculation</h1>
+      
+        <h2 id="show"></h2>
+        <h2 id="show1"></h2>
+
+    </div>
+
+
+  </section>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
